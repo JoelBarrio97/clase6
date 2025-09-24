@@ -1,0 +1,44 @@
+/* Estilo alto contraste para accesibilidad */
+body.alto-contraste {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+body.alto-contraste .navbar,
+body.alto-contraste .footer,
+body.alto-contraste footer {
+    background-color: #111 !important;
+    color: #fff !important;
+}
+
+body.alto-contraste .card {
+    background-color: #222 !important;
+    color: #fff !important;
+    border: 2px solid #fff;
+}
+
+body.alto-contraste .card-title,
+body.alto-contraste .card-text,
+body.alto-contraste .form-label,
+body.alto-contraste h1,
+body.alto-contraste h2 {
+    color: #ff0 !important;
+}
+
+body.alto-contraste .btn-primary {
+    background-color: #ff0 !important;
+    color: #000 !important;
+    border: 2px solid #fff;
+}
+
+body.alto-contraste .form-control {
+    background-color: #000 !important;
+    color: #fff !important;
+    border: 2px solid #ff0;
+}
+
+body.alto-contraste input::placeholder,
+body.alto-contraste textarea::placeholder {
+    color: #ccc !important;
+    opacity: 1;
+}
